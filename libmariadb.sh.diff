@@ -1,0 +1,4 @@
+735c735
+<     local -a args=("--defaults-file=${DB_CONF_FILE}" "-u" "$DB_ROOT_USER" "--force")
+---
+>     local -a args=("--defaults-file=${DB_CONF_FILE}" "-u" "$DB_ROOT_USER" )
